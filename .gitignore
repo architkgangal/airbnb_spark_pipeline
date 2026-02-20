@@ -1,0 +1,19 @@
+# Data files
+*.csv
+*.csv.gz
+data/
+output/
+output-*/
+
+# Spark artifacts
+*.parquet
+*.crc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+my_venv/
+
+# OS
+.DS_Store
